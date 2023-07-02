@@ -6,9 +6,15 @@ class Car:
         self.__make = make
         self.__speed = speed
     #accelerate
+    def accelerate(self):
+        self.__speed += 5
 
     #break
-
-    #get speed
+    def brake(self):
+        self.__speed -= 5
+    
+    #get speed of the car
+    def get_speed(self):
+        return self.__speed
 
     #show info

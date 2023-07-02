@@ -18,3 +18,5 @@ class Car:
         return self.__speed
 
     #show info
+    def showInfo(self):
+        print("Speed:", self.__speed)
